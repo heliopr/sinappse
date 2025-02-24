@@ -1,0 +1,13 @@
+PORT=9000
+PROD=FALSE
+
+DB_USER=postgres
+DB_PASSWORD=postgres
+DB_HOST=127.0.0.1
+DB_PORT=0000
+DB_NAME=sinappse
+
+JWT_SECRET=##############
+
+GOOGLE_CLIENT_ID=###############
+GOOGLE_SECRET=###############
