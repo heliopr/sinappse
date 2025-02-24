@@ -1,0 +1,13 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login-button {
+    gap: 30px;
+}
+
+#login-button img {
+    height: 30px;
+}

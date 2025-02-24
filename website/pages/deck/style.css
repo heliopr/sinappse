@@ -1,0 +1,19 @@
+main {
+    margin-left: 25%;
+    width: 50%;
+}
+
+#carta {
+    box-sizing: border-box;
+    border: 3px solid var(--green3);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#voltar {
+    margin-bottom: 20px;
+}
+
+#prox-button {
+    margin-top: 20px;
+}

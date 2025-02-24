@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinappse | Homepage</title>
+    <link rel="icon" type="image/x-icon" href="/static/SinappseLogo.png">
+    <link rel="stylesheet" href="/pages/globalstyle.css">
+    <link rel="stylesheet" href="/pages/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="/pages/setup.js"></script>
+    <script src="/pages/index.js" defer></script>
+</head>
+<body>
+    <header></header>
+
+    <main>
+        <h1 id="titulo">Sin<span class="green">app</span>se</h1>
+        <div class="section" id="bemvindo" style="display: none;">
+            <h3 id="bemvindo-label">Bem-vindo!</h3>
+            <div class="row">
+                <button id="verdecks-button" onclick="window.location.href='/decks'">Ver meus decks</button>
+                <button id="logout-button" class="button2">Sair</button>
+            </div>
+        </div>
+
+        <div class="section section-right">
+            <hr>
+            <h2>Comece agora!</h2>
+            <p class="size3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, obcaecati ut beatae perferendis est, debitis ad aliquam, earum dolor odio fugiat. Sint totam natus ipsum, aliquam incidunt eaque quidem fuga!</p>
+            <button class="size4" onclick="window.location.href='/login'">Log In</button>
+        </div>
+
+        <div class="section section-left">
+            <hr>
+            <h2>Somos os melhores do mercado!</h2>
+            <p class="size3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ea dolore debitis exercitationem provident eveniet illum error deleniti. Harum delectus nisi id fugit asperiores illum dicta quasi fuga pariatur sed.</p>
+        </div>
+    </main>
+
+    <footer></footer>
+</body>
+</html>

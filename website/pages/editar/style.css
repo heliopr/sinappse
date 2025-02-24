@@ -1,0 +1,34 @@
+main {
+    width: 50%;
+    margin-left: 25%;
+}
+
+#cartas {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.carta {
+    border: 3px solid var(--green3);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.carta p {
+    margin-top: 14px;
+    margin-bottom: 8px;
+}
+
+.carta input {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.carta .excluir-button {
+    margin-top: 20px;
+}
+
+#botoes {
+    margin-bottom: 30px;
+}

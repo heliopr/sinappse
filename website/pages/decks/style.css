@@ -1,0 +1,51 @@
+main {
+    width: 50%;
+    margin-left: 25%;
+}
+
+#decks-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.deck-element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+
+.deck-element a {
+    text-decoration: none;
+    font-size: var(--size3);
+    flex-grow: 1;
+}
+
+.deck-element button {
+    font-size: var(--size2);
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+#criar-input {
+    width: 50%;
+}
+
+#criar-button {
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 800px) {
+    #decks-list {
+        margin-left: 2%;
+        width: 96%;
+    }
+
+    #criar-input {
+        width: 90%;
+    }
+}
